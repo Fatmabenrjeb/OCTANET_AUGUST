@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 50vh;
+    background-image: url(https://i0.wp.com/d12a3lcl7jb9h2.cloudfront.net/assets/DERTOUR/blt186a59bd52497e7e/6336d9637503714b1936853a/tunesien-djerba-inselhuette-am-strand-g-160053767.jpg?ssl=1);
+    background-size: cover;
+    background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+    bottom: 40%;
+}
+.text h1{
+    font-weight: 800;
+    font-size: 6vw;
+    justify-content: center;
+}
+.text p{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.text .icons{
+    display: flex;
+    width: 25%;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#link{
+    margin-right: 10px;
+}
+#inst{
+    margin-right: 10px;
+}
+#face{
+    margin-right: 10px;
+}
+#link:hover{
+    background-color: #0077B5;
+}
+#inst:hover{
+    background-color:#8134AF;
+}
+#face:hover{
+    background-color: #1877F2;
+}
+.bottom {
+    flex: 1;
+    display: flex;
+    width: 100%;
+}
+.b1{
+    width: 30%;
+    min-height: 60vh;
+    background-image: url(https://cdn.mappr.co/wp-content/uploads/2023/01/tunisia-pin-world-map.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+.box1 {
+    background-color: rgba(0, 0, 0, 0.295);
+    padding: 20px;
+    margin-top: 25%;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.box {
+    background-color: rgba(0, 0, 0, 0.356);
+    padding: 20px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.b2{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    min-height: 60vh;
+}
+.b2 .up{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://www.petitfute.com/medias/mag/36296/originale/AdobeStock_541644699-1024x680.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 .up p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b2 .down h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://content.r9cdn.net/rimg/dimg/89/c8/5f478a95-city-45658-16c2557c36f.jpg?crop=true&width=1366&height=768&xhint=1967&yhint=1461);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .down p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b3{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    min-height: 60vh;
+}
+.b3 .up{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://voyage.tv5monde.com/sites/default/files/menzel-c-djerba-destination.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b3 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b3 .up p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b3 .down h1{
+    text-align: center;
+    padding: 30px;
+}
+.b3 .down{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://www.aigle-royal.tn/upload-hotels/photo.1504864.w430.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b3 .down p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+footer {
+    background-image: url(https://st5.depositphotos.com/50728898/65188/i/450/depositphotos_651884954-stock-photo-wavy-flag-tunisia-horizontal-white.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 45px 0;
+}
+footer p{
+    display: flex;
+    width: 15%;
+    font-size: 15px;
+    justify-content: center;
+    padding-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+footer p:hover{
+    background-color:white;
+    color:red;
+}
+footer .overlay {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+@media(max-width:700px){
+    .text{
+        flex-direction: column;
+    }
+    .text .p{
+        width:100%;
+    }
+    .down{
+        margin-bottom: 0px;
+    }
+}
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text h1{
+        font-size: 5vh;
+    }
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text p{
+        margin: 10px;
+        width: 100%;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+    .down{
+        margin-bottom: 0px;
+    }
+}
